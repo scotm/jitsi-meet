@@ -102,7 +102,7 @@ body.welcome-page {
             text-align: left;
             min-height: 354px;
             width: 710px;
-            background: #75A7E7;
+            background: #e77575;
             display: $welcomePageTabContainerDisplay;
             flex-direction: column;
 
@@ -137,7 +137,7 @@ body.welcome-page {
                     cursor: pointer;
 
                     &.selected, &:hover {
-                        background: rgba(9,30,66,0.71);
+                        background: rgba(66,9,9,0.71);
                     }
 
                     &:last-child {
@@ -154,7 +154,7 @@ body.welcome-page {
         height: $welcomePageButtonHeight;
         font-size: $welcomePageButtonFontSize;
         font-weight: $welcomePageButtonFontWeight;
-        background: #0074E0;
+        background: #e00000;
         border-radius: $welcomePageButtonBorderRadius;
         color: #FFFFFF;
         text-align: center;

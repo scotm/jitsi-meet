@@ -103,22 +103,22 @@ var config = {
     // Video
 
     // Sets the preferred resolution (height) for local video. Defaults to 720.
-    // resolution: 720,
+    resolution: 360,
 
     // w3c spec-compliant video constraints to use for video capture. Currently
     // used by browsers that return true from lib-jitsi-meet's
     // util#browser#usesNewGumFlow. The constraints are independent from
     // this config's resolution value. Defaults to requesting an ideal
     // resolution of 720p.
-    // constraints: {
-    //     video: {
-    //         height: {
-    //             ideal: 720,
-    //             max: 720,
-    //             min: 240
-    //         }
-    //     }
-    // },
+    constraints: {
+        video: {
+            height: {
+                ideal: 360,
+                max: 480,
+                min: 240
+            }
+        }
+    },
 
     // Enable / disable simulcast support.
     // disableSimulcast: false,
@@ -370,10 +370,6 @@ var config = {
     analytics: {
         // The Google Analytics Tracking ID:
         // googleAnalyticsTrackingId: 'your-tracking-id-UA-123456-1'
-
-        // Matomo configuration:
-        // matomoEndpoint: 'https://your-matomo-endpoint/',
-        // matomoSiteID: '42',
 
         // The Amplitude APP Key:
         // amplitudeAPPKey: '<APP_KEY>'
